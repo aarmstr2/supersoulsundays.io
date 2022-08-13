@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right bottom, rgba(0,0,0,1), rgba(0,0,0,0.8));
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    height: 20vh;
+    width: 100vw;
+    color: yellow;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 6vh;
+    margin-bottom: 5vh;
+}
+
+nav li{
+    cursor: pointer;
+    display: flex;
+    background-color: black;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    height: 100%;
+    font-weight: 600;
+}
+
+nav li.active{
+    background-color: yellow;
+    opacity: 0.8;
+    color: black;
+}
+
+nav li:hover{
+    background-color: yellow;
+    color: black;
+}
+
+h1{
+    letter-spacing: 1px;
+    margin: 3.5vh 5vw;
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+    color: yellow;
+    text-shadow: 4px 4px 10px green;
+}
+
+main{
+    /* background-color: rgba(0, 0, 0, 0.671); */
+    height: 80vh;
+    width: 100%;
+    color: gray;
+    margin: 1vh 5vw;
+    overflow: scroll;
+}
+
+h2{
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 0.5vw;
+    font-weight: 400;
+    margin: 5vh 0 1vh;
+    color: yellow;
+    opacity: 0.8;
+}
+
+p{
+    margin: 0 5vw;
+}
